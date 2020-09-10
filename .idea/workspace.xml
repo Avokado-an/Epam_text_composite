@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="732bb041-a2d0-402b-9e4b-69e885933667" name="Default Changelist" comment="" />
+    <list default="true" id="732bb041-a2d0-402b-9e4b-69e885933667" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/AlphabeticalOrderComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/2863bcad5c61e2ef3dc0ee67b183de7c7a960b62" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/2863bcad5c61e2ef3dc0ee67b183de7c7a960b62" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a19441c172c727f1d2f750a1ddaf96e9df327490" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a19441c172c727f1d2f750a1ddaf96e9df327490" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/LexemeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/LexemeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/SentenceParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/CompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/CompositeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/impl/CompositeServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/impl/CompositeServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/CharacterParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/CharacterParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/LexemeParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/LexemeParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/ParagraphParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/ParagraphParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/SentenceParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/SentenceParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/reader/TextFileReaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/service/TextCompositeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/service/TextCompositeServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day10/parser/impl/LexemeParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day10/parser/impl/LexemeParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day10/parser/impl/ParagraphParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day10/parser/impl/ParagraphParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day10/parser/impl/SentenceParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day10/parser/impl/SentenceParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day10/service/CompositeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day10/service/CompositeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/anton/day10/service/impl/CompositeServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/anton/day10/service/impl/CompositeServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/CharacterParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/CharacterParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/LexemeParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/LexemeParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/ParagraphParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/ParagraphParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/SentenceParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day10/parser/SentenceParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/anton/day10/service/TextCompositeServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/anton/day10/service/TextCompositeServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +41,13 @@
         <option value="FxmlFile" />
         <option value="Enum" />
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -35,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EPAM_WEB_PROJECT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../epam_shapes" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,24 +76,7 @@
       <recent name="com.anton.day10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SentenceParserTest">
-    <configuration name="SentenceParserTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EPAM_TEXT_TASK" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.anton.day10.parser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.anton.day10.parser" />
-      <option name="MAIN_CLASS_NAME" value="com.anton.day10.parser.SentenceParserTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TextCompositeServiceTest.sortLexemesByFrequencyOfSymbolAndAlphabetValidTest">
     <configuration name="SentenceParserTest.parseTextValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EPAM_TEXT_TASK" />
       <extension name="coverage">
@@ -74,6 +88,24 @@
       <option name="PACKAGE_NAME" value="com.anton.day10.parser" />
       <option name="MAIN_CLASS_NAME" value="com.anton.day10.parser.SentenceParserTest" />
       <option name="METHOD_NAME" value="parseTextValidTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextCompositeServiceTest.sortLexemesByFrequencyOfSymbolAndAlphabetValidTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="EPAM_TEXT_TASK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anton.day10.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.anton.day10.service" />
+      <option name="MAIN_CLASS_NAME" value="com.anton.day10.service.TextCompositeServiceTest" />
+      <option name="METHOD_NAME" value="sortLexemesByFrequencyOfSymbolAndAlphabetValidTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,7 +169,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SentenceParserTest" />
+        <item itemvalue="TestNG.TextCompositeServiceTest.sortLexemesByFrequencyOfSymbolAndAlphabetValidTest" />
         <item itemvalue="TestNG.TextCompositeServiceTest.sortSentencesByByMaxWordLengthValidTest" />
         <item itemvalue="TestNG.TextCompositeServiceTest.sortSentencesByByMaxLexemeLengthValidTest" />
         <item itemvalue="TestNG.TextCompositeServiceTest.sortParagraphsBySentencesAmountValidTest" />
@@ -161,6 +193,8 @@
       <workItem from="1599319005296" duration="8732000" />
       <workItem from="1599382225996" duration="22125000" />
       <workItem from="1599468259038" duration="1685000" />
+      <workItem from="1599576333234" duration="876000" />
+      <workItem from="1599734548674" duration="2872000" />
     </task>
     <servers />
   </component>
@@ -176,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="519" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1598983789841" />
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1599404782709">
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1599735036316">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599404782709" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599735036316" />
     <state x="400" y="102" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1598978054515">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,26 +238,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599404613442" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1599468754266">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1599737107841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599468754266" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599471349492">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599737107841" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1599737529438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599471349492" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599471349492">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599737529438" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1599737529438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599471349492" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599471349492">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599737529438" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1599737529437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599471349492" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599471349492">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599737529437" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1599737529438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599471349492" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599737529438" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1598979334336">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

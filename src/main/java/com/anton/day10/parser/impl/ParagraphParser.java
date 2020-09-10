@@ -14,7 +14,6 @@ public class ParagraphParser implements BasicParser {
     private static final String PARAGRAPH_REGEX = "[\\t]";
     private static final BasicParser nextParser = new SentenceParser();
 
-    @Override // TODO: 05.09.2020 Do something to make it better(especially naming)
     public List<TextComponent> parseData(String text) {
         List<TextComponent> componentParagraphs = new ArrayList<>();
         String[] paragraphs = text.split(PARAGRAPH_REGEX);
@@ -23,7 +22,9 @@ public class ParagraphParser implements BasicParser {
             List<TextComponent> componentSentences = nextParser.parseData(paragraph);
             for(TextComponent componentSentence : componentSentences) {
                 componentParagraph.add(componentSentence);
+                componentParagraph.add(new SymbolComponent("\n", CharacterType.SYMBOL));
             }
+            componentParagraphs.add(new SymbolComponent("    ", CharacterType.SYMBOL));
             componentParagraphs.add(componentParagraph);
         }
         return componentParagraphs;

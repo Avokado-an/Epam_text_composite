@@ -1,9 +1,6 @@
 package com.anton.day10.service.impl;
 
-import com.anton.day10.comparator.AmountOfSentencesParagraphComparator;
-import com.anton.day10.comparator.FrequencyOfCharacterAndAlphabetComparator;
-import com.anton.day10.comparator.LexemeLengthSentenceComparator;
-import com.anton.day10.comparator.WordLengthSentenceComparator;
+import com.anton.day10.comparator.*;
 import com.anton.day10.composite.TextComponent;
 import com.anton.day10.parser.BasicParser;
 import com.anton.day10.parser.impl.LexemeParser;
@@ -39,10 +36,11 @@ public class CompositeServiceImplementation implements CompositeService {
     }
 
     @Override
-    public List<TextComponent> sortLexemesByFrequencyOfLetterAndAlphabet(String text) {
+    public List<TextComponent> sortLexemesByFrequencyOfSymbolAndAlphabet(char symbol, String text) {
         BasicParser parser = new LexemeParser();
         List<TextComponent> sortedLexemes = parser.parseData(text);
-        sortedLexemes.sort(new FrequencyOfCharacterAndAlphabetComparator());
+        sortedLexemes.sort(new FrequencyOfCharacterAndAlphabetComparator(symbol).
+                thenComparing(new AlphabeticalOrderComparator()));
         return sortedLexemes;
     }
 }

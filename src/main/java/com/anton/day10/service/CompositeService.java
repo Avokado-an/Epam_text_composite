@@ -8,5 +8,5 @@ public interface CompositeService {
     List<TextComponent> sortSentencesByMaxLexemeLength(String text);
     List<TextComponent> sortSentencesByMaxWordLength(String text);
     List<TextComponent> sortParagraphsBySentencesAmount(String text);
-    List<TextComponent> sortLexemesByFrequencyOfLetterAndAlphabet(String text);
+    List<TextComponent> sortLexemesByFrequencyOfSymbolAndAlphabet(char symbol, String text);
 }

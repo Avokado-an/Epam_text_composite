@@ -32,7 +32,6 @@ public class LexemeParser implements BasicParser {
             } else {
                 componentLexemes.add(operateWord(lexeme));
             }
-            componentLexemes.add(new SymbolComponent(SPACE, CharacterType.SYMBOL));
         }
         return componentLexemes;
     }
