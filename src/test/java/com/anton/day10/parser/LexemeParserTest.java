@@ -1,8 +1,8 @@
 package com.anton.day10.parser;
 
 import com.anton.day10.composite.TextComponent;
-import com.anton.day10.parser.impl.LexemeParser;
 import com.anton.day10.exception.ProgramException;
+import com.anton.day10.parser.impl.LexemeParser;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -32,7 +32,7 @@ public class LexemeParserTest {
     public void parseTextValidTest(String text) throws ProgramException {
         List<TextComponent> components = parser.parseData(text);
         List<String> actualResult = new ArrayList<>();
-        for(TextComponent component : components) {
+        for (TextComponent component : components) {
             actualResult.add(component.toString());
         }
         List<String> expectedResult = Arrays.asList("asd,", "asdf.", "Asdf.");

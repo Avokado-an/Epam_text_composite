@@ -1,8 +1,8 @@
 package com.anton.day10.service;
 
 import com.anton.day10.composite.TextComponent;
-import com.anton.day10.service.impl.CompositeServiceImplementation;
 import com.anton.day10.exception.ProgramException;
+import com.anton.day10.service.impl.CompositeServiceImplementation;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -40,7 +40,7 @@ public class TextCompositeServiceTest {
     @Test(dataProvider = "textToParse")
     public void sortParagraphsBySentencesAmountValidTest(String text) throws ProgramException {
         List<TextComponent> sortedParagraphs = service.sortParagraphsBySentencesAmount(text);
-        for(TextComponent component : sortedParagraphs) {
+        for (TextComponent component : sortedParagraphs) {
             System.out.println(component.toString());
         }
     }
@@ -56,7 +56,7 @@ public class TextCompositeServiceTest {
     @Test(dataProvider = "textForMaxLexeme")
     public void sortSentencesByByMaxLexemeLengthValidTest(String text) throws ProgramException {
         List<TextComponent> sortedSentences = service.sortSentencesByMaxLexemeLength(text);
-        for(TextComponent component : sortedSentences) {
+        for (TextComponent component : sortedSentences) {
             System.out.println(component.toString());
         }
     }
@@ -64,7 +64,7 @@ public class TextCompositeServiceTest {
     @Test(dataProvider = "textForMaxLexeme")
     public void sortSentencesByByMaxWordLengthValidTest(String text) throws ProgramException {
         List<TextComponent> sortedSentences = service.sortSentencesByMaxWordLength(text);
-        for(TextComponent component : sortedSentences) {
+        for (TextComponent component : sortedSentences) {
             System.out.println(component.toString());
         }
     }
@@ -81,7 +81,7 @@ public class TextCompositeServiceTest {
     public void sortLexemesByFrequencyOfSymbolAndAlphabetValidTest(String text) throws ProgramException {
         char symbolToFind = 'a';
         List<TextComponent> sortedLexemes = service.sortLexemesByFrequencyOfSymbolAndAlphabet(symbolToFind, text);
-        for(TextComponent component : sortedLexemes) {
+        for (TextComponent component : sortedLexemes) {
             System.out.println(component.toString());
         }
     }

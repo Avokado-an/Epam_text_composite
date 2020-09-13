@@ -1,9 +1,9 @@
 package com.anton.day10.comparator;
 
 import com.anton.day10.composite.TextComponent;
+import com.anton.day10.exception.ProgramException;
 import com.anton.day10.parser.BasicParser;
 import com.anton.day10.parser.impl.CharacterParser;
-import com.anton.day10.exception.ProgramException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

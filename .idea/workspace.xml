@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="732bb041-a2d0-402b-9e4b-69e885933667" name="Default Changelist" comment="" />
+    <list default="true" id="732bb041-a2d0-402b-9e4b-69e885933667" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/LexemeLengthSentenceComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/LexemeLengthSentenceComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/WordLengthSentenceComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/comparator/WordLengthSentenceComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/composite/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/composite/TextComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/composite/impl/TextComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/composite/impl/TextComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/exception/ProgramException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/exception/ProgramException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/BasicParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/BasicParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/CharacterParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/CharacterParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/LexemeParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/LexemeParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/parser/impl/SentenceParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/CompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/CompositeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/impl/CompositeServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anton/day10/service/impl/CompositeServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/CharacterParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/CharacterParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/LexemeParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/LexemeParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/ParagraphParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/ParagraphParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/SentenceParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/parser/SentenceParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anton/day10/service/TextCompositeServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anton/day10/service/TextCompositeServiceTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +186,7 @@
       <workItem from="1599576333234" duration="876000" />
       <workItem from="1599734548674" duration="3274000" />
       <workItem from="1599978500625" duration="347000" />
-      <workItem from="1599978866359" duration="2740000" />
+      <workItem from="1599978866359" duration="3201000" />
     </task>
     <servers />
   </component>

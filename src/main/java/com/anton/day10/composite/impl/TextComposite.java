@@ -18,7 +18,7 @@ public class TextComposite implements TextComponent {
     }
 
     public void setComponents(List<TextComponent> components) {
-        if(components != null) {
+        if (components != null) {
             this.components = components;
         }
     }
@@ -38,7 +38,7 @@ public class TextComposite implements TextComponent {
     @Override
     public Optional<TextComponent> getChild(int id) {
         Optional<TextComponent> searchedChild;
-        if(id > 0 && id < getComponentsSize()) {
+        if (id > 0 && id < getComponentsSize()) {
             searchedChild = Optional.of(components.get(id));
         } else {
             searchedChild = Optional.empty();
@@ -54,7 +54,7 @@ public class TextComposite implements TextComponent {
     @Override
     public boolean add(TextComponent component) {
         boolean flag = false;
-        if(component != null) {
+        if (component != null) {
             flag = components.add(component);
         }
         return flag;
@@ -62,14 +62,14 @@ public class TextComposite implements TextComponent {
 
     @Override
     public void addChild(TextComponent component) {
-        if(component != null) {
+        if (component != null) {
             components.add(component);
         }
     }
 
     @Override
     public void removeChild(TextComponent component) {
-        if(component != null) {
+        if (component != null) {
             components.remove(component);
         }
     }
@@ -77,7 +77,7 @@ public class TextComposite implements TextComponent {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        for(TextComponent component : components) {
+        for (TextComponent component : components) {
             res.append(component.toString());
         }
         return res.toString();

@@ -1,8 +1,8 @@
 package com.anton.day10.parser;
 
 import com.anton.day10.composite.TextComponent;
-import com.anton.day10.parser.impl.CharacterParser;
 import com.anton.day10.exception.ProgramException;
+import com.anton.day10.parser.impl.CharacterParser;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -42,7 +42,7 @@ public class CharacterParserTest {
     public void parseTextValidTest(String text) throws ProgramException {
         List<TextComponent> components = parser.parseData(text);
         StringBuilder expectedResult = new StringBuilder();
-        for(TextComponent component : components) {
+        for (TextComponent component : components) {
             expectedResult.append(component.toString());
         }
         Assert.assertEquals(expectedResult.toString(), text);

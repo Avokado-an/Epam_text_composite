@@ -1,6 +1,6 @@
 package com.anton.day10.exception;
 
-public class ProgramException extends Exception{
+public class ProgramException extends Exception {
     public ProgramException() {
     }
 

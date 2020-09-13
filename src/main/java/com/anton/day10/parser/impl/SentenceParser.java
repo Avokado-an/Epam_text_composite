@@ -5,8 +5,8 @@ import com.anton.day10.composite.impl.SymbolComponent;
 import com.anton.day10.composite.impl.TextComposite;
 import com.anton.day10.composite.type.CharacterType;
 import com.anton.day10.composite.type.ComponentType;
-import com.anton.day10.parser.BasicParser;
 import com.anton.day10.exception.ProgramException;
+import com.anton.day10.parser.BasicParser;
 
 import java.util.ArrayList;
 import java.util.List;
