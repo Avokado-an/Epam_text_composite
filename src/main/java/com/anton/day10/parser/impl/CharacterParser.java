@@ -4,7 +4,7 @@ import com.anton.day10.composite.TextComponent;
 import com.anton.day10.composite.impl.SymbolComponent;
 import com.anton.day10.composite.type.CharacterType;
 import com.anton.day10.parser.BasicParser;
-import main.java.com.anton.day10.exception.ProgramException;
+import com.anton.day10.exception.ProgramException;
 
 import java.util.ArrayList;
 import java.util.List;

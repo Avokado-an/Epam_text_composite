@@ -2,7 +2,7 @@ package com.anton.day10.parser;
 
 import com.anton.day10.composite.TextComponent;
 import com.anton.day10.parser.impl.LexemeParser;
-import main.java.com.anton.day10.exception.ProgramException;
+import com.anton.day10.exception.ProgramException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;

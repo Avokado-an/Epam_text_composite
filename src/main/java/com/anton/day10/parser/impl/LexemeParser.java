@@ -7,7 +7,7 @@ import com.anton.day10.composite.type.CharacterType;
 import com.anton.day10.composite.type.ComponentType;
 import com.anton.day10.interpreter.MathExpressionInterpreter;
 import com.anton.day10.parser.BasicParser;
-import main.java.com.anton.day10.exception.ProgramException;
+import com.anton.day10.exception.ProgramException;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

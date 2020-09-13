@@ -1,6 +1,6 @@
 package com.anton.day10.interpreter;
 
-import main.java.com.anton.day10.exception.ProgramException;
+import com.anton.day10.exception.ProgramException;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

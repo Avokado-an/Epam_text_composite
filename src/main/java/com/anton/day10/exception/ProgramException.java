@@ -1,4 +1,4 @@
-package main.java.com.anton.day10.exception;
+package com.anton.day10.exception;
 
 public class ProgramException extends Exception{
     public ProgramException() {

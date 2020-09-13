@@ -7,7 +7,7 @@ import com.anton.day10.parser.impl.LexemeParser;
 import com.anton.day10.parser.impl.ParagraphParser;
 import com.anton.day10.parser.impl.SentenceParser;
 import com.anton.day10.service.CompositeService;
-import main.java.com.anton.day10.exception.ProgramException;
+import com.anton.day10.exception.ProgramException;
 
 import java.util.List;
 
