@@ -5,5 +5,5 @@ import com.anton.day10.composite.TextComponent;
 import java.util.List;
 
 public interface BasicParser {
-    public abstract List<TextComponent> parseData(String text);
+    List<TextComponent> parseData(String text) throws main.java.com.anton.day10.exception.ProgramException;
 }

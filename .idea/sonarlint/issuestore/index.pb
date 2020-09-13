@@ -44,8 +44,6 @@ Nsrc/main/java/com/anton/day10/service/impl/CompositeServiceImplementation.java
 |
 Lsrc/main/java/com/anton/day10/comparator/LexemeLengthSentenceComparator.java,2\8\2863bcad5c61e2ef3dc0ee67b183de7c7a960b62
 l
-<src/test/java/com/anton/day10/reader/TextFileReaderTest.java,5\d\5dc3123dde1624203cda9fa9b2fa5c84799d6ace
-l
 <src/test/java/com/anton/day10/parser/SentenceParserTest.java,e\6\e690d00dd39bb3fa05cd2d23fd90022ff7da64a1
 s
 Csrc/test/java/com/anton/day10/service/TextCompositeServiceTest.java,d\1\d176905d9626f82b337c2bf5d1648c7782732192
@@ -53,3 +51,5 @@ z
 Jsrc/main/java/com/anton/day10/comparator/WordLengthSentenceComparator.java,8\7\879ed7966696e17d8bea33f63b2c1c7e8c911ba2
 ‡
 Wsrc/main/java/com/anton/day10/comparator/FrequencyOfCharacterAndAlphabetComparator.java,5\2\527526b09546b8b0f19a68328fa37e062fea9206
+y
+Isrc/main/java/com/anton/day10/comparator/AlphabeticalOrderComparator.java,8\6\86fc923f81e3082730836de68ee7b2b3a0e126e1

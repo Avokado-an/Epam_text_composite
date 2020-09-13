@@ -3,11 +3,16 @@ package com.anton.day10.comparator;
 import com.anton.day10.composite.TextComponent;
 import com.anton.day10.parser.BasicParser;
 import com.anton.day10.parser.impl.CharacterParser;
+import main.java.com.anton.day10.exception.ProgramException;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Comparator;
 import java.util.List;
 
 public class FrequencyOfCharacterAndAlphabetComparator implements Comparator<TextComponent> {
+    private static final Logger LOGGER = LogManager.getLogger();
     private char symbolToFind;
 
     public FrequencyOfCharacterAndAlphabetComparator(char symbolToFind) {
@@ -23,12 +28,17 @@ public class FrequencyOfCharacterAndAlphabetComparator implements Comparator<Tex
 
     private int calculateSymbolEntries(TextComponent component) {
         int amountOfEntries = 0;
-        BasicParser parser = new CharacterParser();
-        List<TextComponent> characters = parser.parseData(component.toString());
-        for (TextComponent character : characters) {
-            if(character.toString().equalsIgnoreCase(String.valueOf(symbolToFind))) {
-                amountOfEntries++;
+        try {
+            BasicParser parser = new CharacterParser();
+            List<TextComponent> characters = parser.parseData(component.toString());
+            for (TextComponent character : characters) {
+                if (character.toString().equalsIgnoreCase(String.valueOf(symbolToFind))) {
+                    amountOfEntries++;
+                }
             }
+        } catch (ProgramException e) {
+            LOGGER.log(Level.WARN, "can't compare entries of symbol in lexemes due to inability to parse symbols");
+            amountOfEntries = 0;
         }
         return amountOfEntries;
     }

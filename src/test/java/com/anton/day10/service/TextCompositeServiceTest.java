@@ -2,6 +2,7 @@ package com.anton.day10.service;
 
 import com.anton.day10.composite.TextComponent;
 import com.anton.day10.service.impl.CompositeServiceImplementation;
+import main.java.com.anton.day10.exception.ProgramException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -37,7 +38,7 @@ public class TextCompositeServiceTest {
     }
 
     @Test(dataProvider = "textToParse")
-    public void sortParagraphsBySentencesAmountValidTest(String text) {
+    public void sortParagraphsBySentencesAmountValidTest(String text) throws ProgramException {
         List<TextComponent> sortedParagraphs = service.sortParagraphsBySentencesAmount(text);
         for(TextComponent component : sortedParagraphs) {
             System.out.println(component.toString());
@@ -53,7 +54,7 @@ public class TextCompositeServiceTest {
     }
 
     @Test(dataProvider = "textForMaxLexeme")
-    public void sortSentencesByByMaxLexemeLengthValidTest(String text) {
+    public void sortSentencesByByMaxLexemeLengthValidTest(String text) throws ProgramException {
         List<TextComponent> sortedSentences = service.sortSentencesByMaxLexemeLength(text);
         for(TextComponent component : sortedSentences) {
             System.out.println(component.toString());
@@ -61,7 +62,7 @@ public class TextCompositeServiceTest {
     }
 
     @Test(dataProvider = "textForMaxLexeme")
-    public void sortSentencesByByMaxWordLengthValidTest(String text) {
+    public void sortSentencesByByMaxWordLengthValidTest(String text) throws ProgramException {
         List<TextComponent> sortedSentences = service.sortSentencesByMaxWordLength(text);
         for(TextComponent component : sortedSentences) {
             System.out.println(component.toString());
@@ -77,11 +78,31 @@ public class TextCompositeServiceTest {
     }
 
     @Test(dataProvider = "textForMaxSymbolEntries")
-    public void sortLexemesByFrequencyOfSymbolAndAlphabetValidTest(String text) {
+    public void sortLexemesByFrequencyOfSymbolAndAlphabetValidTest(String text) throws ProgramException {
         char symbolToFind = 'a';
         List<TextComponent> sortedLexemes = service.sortLexemesByFrequencyOfSymbolAndAlphabet(symbolToFind, text);
         for(TextComponent component : sortedLexemes) {
             System.out.println(component.toString());
         }
+    }
+
+    @Test(expectedExceptions = ProgramException.class)
+    public void sortParagraphsBySentencesAmountExceptionTest() throws ProgramException {
+        service.sortParagraphsBySentencesAmount(null);
+    }
+
+    @Test(expectedExceptions = ProgramException.class)
+    public void sortSentencesByByMaxLexemeLengthExceptionTest() throws ProgramException {
+        service.sortSentencesByMaxLexemeLength(null);
+    }
+
+    @Test(expectedExceptions = ProgramException.class)
+    public void sortSentencesByByMaxWordLengthExceptionTest() throws ProgramException {
+        service.sortSentencesByMaxWordLength(null);
+    }
+
+    @Test(expectedExceptions = ProgramException.class)
+    public void sortLexemesByFrequencyOfSymbolAndAlphabetExceptionTest() throws ProgramException {
+        service.sortLexemesByFrequencyOfSymbolAndAlphabet('a', null);
     }
 }

@@ -26,6 +26,4 @@ public class TextFileReader {
         }
         return res.toString();
     }
-
-    // TODO: 06.09.2020 add own interpreter + add tests for fileReader + add null wrapper everywhere + add invalid tests for null values and stuff 
 }

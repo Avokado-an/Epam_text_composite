@@ -6,6 +6,7 @@ import com.anton.day10.composite.impl.TextComposite;
 import com.anton.day10.composite.type.CharacterType;
 import com.anton.day10.composite.type.ComponentType;
 import com.anton.day10.parser.BasicParser;
+import main.java.com.anton.day10.exception.ProgramException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +18,10 @@ public class SentenceParser implements BasicParser {
     private static final String SPACE = " ";
 
     @Override
-    public List<TextComponent> parseData(String text) {
+    public List<TextComponent> parseData(String text) throws ProgramException {
+        if (text == null) {
+            throw new ProgramException();
+        }
         List<TextComponent> componentSentences = new ArrayList<>();
         String[] sentences = text.split(String.format(REGEX_FOR_SPLITTING_WITH_DELIMITER, SENTENCE_REGEX));
         for (String sentence : sentences) {
